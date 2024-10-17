@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0px;
+    margin: 0 15px;
 }
 
 nav a {
@@ -186,7 +186,7 @@ button:hover {
         display: none; /* Hide the navigation links */
         flex-direction: column; /* Stack links vertically */
         position: absolute;
-        font-size: 13px;
+        font-size: 12px;
        width: 100%;
         left: 10px;
         top: 0px; /* Below the header */
@@ -194,6 +194,10 @@ button:hover {
         color: #010508;
     }
     
+    nav ul li {
+        display: inline;
+        margin: 2px;
+    }
     nav ul.show {
         display: inline; /* Show links when toggled */
     }
